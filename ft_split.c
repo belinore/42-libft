@@ -6,7 +6,7 @@
 /*   By: belinore <belinore@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 18:51:28 by belinore          #+#    #+#             */
-/*   Updated: 2024/11/20 20:33:32 by belinore         ###   ########.fr       */
+/*   Updated: 2025/03/03 20:50:04 by belinore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,22 +98,3 @@ static size_t	word_count(char const *s, char c)
 	}
 	return (count);
 }
-/*
-int	main(void)
-{
-    char	**split;
-	int		i;
-
-	split = ft_split("abc::def:ghi:::", ':');
-//	split = ft_split("\0aa\0bbb", '\0');
-	i = 0;
-	while (split[i])
-	{
-		printf("%i : %s\n", i, split[i]);
-		free(split[i]);
-		i++;
-	}
-	printf("%i : %p\n", i, split[i]);
-	free(split[i]);
-	free(split);
-}*/

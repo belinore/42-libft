@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: belinore <belinore@student.42.fr>          +#+  +:+       +#+        */
+/*   By: belinore <belinore@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 18:50:45 by belinore          #+#    #+#             */
-/*   Updated: 2024/11/21 15:31:55 by belinore         ###   ########.fr       */
+/*   Updated: 2025/03/03 20:30:05 by belinore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,15 +29,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	string = ft_substr(s1, start, end - start);
 	return (string);
 }
-/*
-int	main(void)
-{
- 	char *s1 = "abcabcabhelabcloabbc";
- 	char *trimmed = "helabclo";
- 	char *result = ft_strtrim(s1, "abc");
- 
- 	if (!strcmp(result, trimmed))
- 		printf("OK");
- 	else
-		printf("NOK");
-}*/

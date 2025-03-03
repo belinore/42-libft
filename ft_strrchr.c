@@ -6,7 +6,7 @@
 /*   By: belinore <belinore@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 16:55:53 by belinore          #+#    #+#             */
-/*   Updated: 2024/11/20 17:55:58 by belinore         ###   ########.fr       */
+/*   Updated: 2025/03/03 20:44:21 by belinore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		ptr = (char *)s;
 	return (ptr);
 }
-/*
-int	main(void)
-{
-	printf("%s", ft_strrchr("Abc,def", 'd'));
-	printf("%s", ft_strrchr("hello", '\0'));
-}*/

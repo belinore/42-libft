@@ -6,7 +6,7 @@
 /*   By: belinore <belinore@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 10:39:33 by belinore          #+#    #+#             */
-/*   Updated: 2024/11/19 16:50:22 by belinore         ###   ########.fr       */
+/*   Updated: 2025/03/03 20:50:31 by belinore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-int	main(void)
-{
-//	char dest[10] = "Abc";
-//	char *src = "Def";
-	char *testdst = NULL;
-	char *testsrc = NULL;
-//	printf("%p\n", ft_memcpy(dest, (void*)0, 3));
-//	printf("%p\n",ft_memcpy(testdst, testsrc, 3));
-	memcpy(testdst, testsrc, 256);
-}*/

@@ -6,7 +6,7 @@
 /*   By: belinore <belinore@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 15:39:55 by belinore          #+#    #+#             */
-/*   Updated: 2024/11/14 19:29:35 by belinore         ###   ########.fr       */
+/*   Updated: 2025/03/03 20:44:24 by belinore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char haystack[30] = "aaabcabcd";
-//	char needle[10] = "aabc";
-//	char * empty = (char*)"";
-	printf("%s",ft_strnstr(haystack, "abcd", 9));
-}*/
