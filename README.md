@@ -2,7 +2,7 @@
 
 **Libft** is a custom C library developed as part of the **42 curriculum**. It reimplements essential functions from the C standard library (`stdlib.h`, `string.h`, `ctype.h`), as well as additional utilities for memory management, string manipulation and linked lists. 
 
-## 🧠 Learning Outcomes
+## 🎯 Learning Outcomes
 
 - Solid understanding of C language fundamentals
 - Manual memory allocation/freeing and pointers
