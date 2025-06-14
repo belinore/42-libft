@@ -14,9 +14,9 @@
 ## 📂 Project Structure
 
 ```
-libft/
+42-libft/
 ├── ft_*.c             # Source files for reimplemented functions
-├── libft.h            # Main header file
+├── libft.h            # Header file
 ├── Makefile           # Build automation
 └── README.md          # Project documentation
 ```
