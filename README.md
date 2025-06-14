@@ -1,17 +1,16 @@
 # 42-libft
 
 ## 📌 Overview
-**Libft** is a foundational C library developed as part of the **42 curriculum**. It reimplements essential functions from the C standard library (`stdlib.h`, `string.h`, `ctype.h`), as well as additional utilities for memory management, linked lists, and string manipulation.
-
-This library forms the basis for many future 42 projects, serving as a reliable and reusable codebase.
+**Libft** is a custom C library developed as part of the **42 curriculum**. It reimplements essential functions from the C standard library (`stdlib.h`, `string.h`, `ctype.h`), as well as additional utilities for memory management, string manipulation and linked lists. 
 
 ## 🧠 Learning Outcomes
 
-- Deep understanding of C language fundamentals
-- Manual memory allocation and deallocation and pointer management
-- Implementation of string and memory handling functions
-- Linked list manipulation
-- Code modularity and reusability
+- Solid understanding of C language fundamentals
+- Manual memory allocation/freeing and pointers
+- Reimplementation of standard string and memory functions
+- Introduction to linked list operations
+- Writing clean, modular, and reusable code following strict standards
+- Building a custom C library with static linking for reuse in future 42 projects
 
 ## 🔧 Project Structure
 
@@ -106,7 +105,7 @@ To use in another project:
 Then compile with:
 
 ```bash
-cc your_file.c -L. -lft
+gcc your_file.c -L. -lft
 ```
 
 ## 📌 Notes
